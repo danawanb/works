@@ -1,0 +1,137 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+/*grid bikin pusing do not use any grid*/
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.3fr 1.2fr;
+    grid-template-rows: 0.2fr 1.6fr 1.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+  
+.navbar { 
+    grid-area: 1 / 1 / 4 / 2; 
+    width: 300px;
+    height: 1024px;
+    background-color: #0f4c81;
+}
+  
+.header-atas {
+    display: grid;
+    grid-template-columns: 1.3fr 0.65fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". header-kanan-atas";
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: powderblue;
+}
+  
+.header-kanan-atas { 
+    grid-area: header-kanan-atas; 
+    background-color: darkgoldenrod;
+    width: auto;
+    height: auto;
+
+}
+  
+.konten { grid-area: 2 / 2 / 4 / 4; }
+  
+.konten-atas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "realisasi-total realisasi-tahap2 realisasi-tahap3"
+      "kpm realisasi-blt jumlah-permintaan";
+    grid-area: 2 / 2 / 3 / 4;
+}
+  
+.realisasi-total { 
+    grid-area: realisasi-total;
+    width: auto; 
+    height: auto;
+    background-color: darkgrey;
+
+}
+  
+.realisasi-tahap2 { 
+    grid-area: realisasi-tahap2;
+    width: auto; 
+    height: auto;
+    background-color: lemonchiffon;
+}
+  
+.realisasi-tahap3 { grid-area: realisasi-tahap3;
+    width: auto; 
+    height: auto;
+    background-color: sandybrown;
+}
+  
+.kpm { grid-area: kpm;
+    width: auto; 
+    height: auto;
+    background-color: slateblue;
+}
+  
+.realisasi-blt { grid-area: realisasi-blt;
+    width: auto; 
+    height: auto;
+    background-color: lightskyblue;
+ }
+  
+.jumlah-permintaan { grid-area: jumlah-permintaan; }
+  
+.konten-bawah {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "grafik-realisasi grafik-realisasi kontenlain"
+      "grafik-kotak grafik-kotak kontenlain";
+    grid-area: 3 / 2 / 4 / 4;
+}
+  
+.grafik-realisasi { 
+    grid-area: grafik-realisasi; 
+    width: auto; 
+    height: auto;
+    background-color: cornflowerblue;
+}
+  
+.grafik-kotak { grid-area: grafik-kotak;
+    width: auto; 
+    height: auto;
+    background-color: wheat;
+}
+  
+.kontenlain { 
+    grid-area: kontenlain;
+    background-color: plum;
+}
+  
+
+/*normie css*/
+
+.inavbar {
+    margin-top: 200px;
+}
+.inavbar li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    color: powderblue;
+    list-style: none;
+    text-align: justify;
+}
+
+.navbar a {
+    color: white;
+    font-size: 14px;
+}

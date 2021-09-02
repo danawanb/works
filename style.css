@@ -1,0 +1,288 @@
+html {
+  align-items: center;
+  justify-content: center;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header-logo h1 {
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    float: left;
+    color:#0f4c81;
+    padding: 5px 5px 10px 15px;
+}
+
+.header-list li{
+    right: 15px;
+    top:70px;
+    font-size:14px;
+    padding: 20px 10px 10px 10px;
+    list-style: none;
+    float: right;
+    margin-right: 40px;
+}
+
+.header-list a {
+    color: #0f4c81;
+}
+.header-list a:link {
+    text-decoration: none;
+}
+.header-list a:hover{
+
+    text-decoration: underline;
+}
+
+.header-wrapper {
+    background-image: url(file:///C:/xampp/htdocs/newlida/ilustrasi/illustrasiwebsmall.svg);
+    background-size: cover;
+    padding-bottom:300px;
+    margin: -40px
+}
+.button {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:24px;
+    padding-right:24px;
+    color:white;
+    display:inline-block;
+
+}
+.button-wrapper {
+    margin-top:20px;
+    margin-bottom:20px;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+
+
+}
+.button-wrapper a:link{
+  text-decoration: none;
+}
+.blue {
+    margin: 20px;
+    color: #0f4c81;
+    background-color:rgb(167, 225,227);
+    border-radius: 25px;
+    width: 200px;
+    transition: all 0.5s;
+}
+.blue:hover {
+    opacity: 0.5;
+    color: #0d3b63;
+    background-color:rgba(167, 225,227, 0.8)
+}
+.beige {
+    margin: 20px;
+    color: #0f4c81;
+    background-color: #FBECCD;
+    border-radius: 25px;
+    width: 200px;
+    transition: all 0.5s;
+}
+.beige:hover {
+  opacity: 0.5;
+  color: #0d3b63;
+}
+
+
+p {
+    font-size: 11px;
+}
+
+.keterangan {
+    padding-top: 250px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+h2 {
+    padding-bottom: 30px;
+}
+.keterangan h2  {
+    color: white;
+    font-size: 39px;
+}
+
+.keterangan p {
+    font-size: 14px;
+    color: seashell;
+}
+
+header {
+  margin-top: -20px;
+  margin-left: -20px;
+  height: 100px;
+  width: 1780px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* ini css grid xixixi*/
+.parent {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 50% 50%;
+}
+
+[class ^="child"] {
+    width: 130%;
+    height: 500px;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: -10px;
+    float: left;
+}
+
+
+.child-1 {
+    background-color: #f6f6f6;
+}
+.child-2 {
+    background-color: #f6f6f6;
+}
+
+.child-3 {
+    background-color: white;
+}
+
+.child-4 {
+    background-color: white;
+}
+
+.child-5 {
+    background-color: #f6f6f6;
+}
+.child-6 {
+    background-color: #f6f6f6;
+}
+
+
+
+
+/*judul konten */
+.judul-1 {
+    text-align: right;
+    font-size: 38px;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 350px;
+    color: #0d1e3f;
+}
+
+.child-1 p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 350px;
+    text-align: right;
+    color: #0d1e3f;
+}
+.judul-4 {
+    text-align: left;
+    font-size: 38px;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 350px;
+    color: #0d1e3f;
+}
+.child-4 p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 350px;
+    text-align: left;
+    color: #0d1e3f;
+}
+
+.judul-5 {
+    text-align: right;
+    font-size: 38px;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 350px;
+    color: #0d1e3f;
+}
+
+.child-5 p {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 350px;
+    text-align: right;
+    color: #0d1e3f;
+}
+
+.kucing1 img{
+    display: block;
+    width: 600px;
+    height: auto;
+    float: left;
+}
+
+.kucing2 img{
+    display: block;
+    width: 600px;
+    height: auto;
+    float: right;
+    padding-right: 220px;
+}
+
+.kucing3 img{
+    display: block;
+    width: 600px;
+    height: auto;
+    float: left;
+}
+
+
+.childf-1 img{
+    display: flex;
+    flex: left;
+    width: 200px;
+    height: auto;
+    padding: 40px;
+
+}
+.list-footer{
+    display: block;
+    margin-top: 30px;
+}
+
+.list-footer li {
+    top: 20px;
+    font-size:14px;
+    list-style: none;
+    color: white;
+    border-top: 10px;
+    padding-bottom: 20px;
+}
+
+.parent-footer{
+    display: grid;
+    width: 120%;
+    height: 350px;
+    margin: auto;
+    grid-template-columns: 70% 30%;
+}
+.childf-1{
+    background-color: #0f4c81;
+
+}
+.childf-2{
+    background-color: #2D74B1;
+    /*border-left: solid 1px white;*/
+}
+
+/*slider foto rencananya*/
